@@ -6,7 +6,7 @@ torchvision (0.12.0), matplotlib (3.5.1), numpy (1.21.5), h5py (3.7.0), scikit-i
 
 Files:
 
-OfflineStudentZVariableEpsTorch.py: main library for explanation distillation, based on pytorch
+OfflineStudentZVariableEpsTorch.py: main library for explanation distillation, based on PyTorch, use to train the student network
 
 OfflineStudentLightningTrainer.py: Pytorch Lightning implementation of explanation distillation. Used in all our distillation experiments, when training the student
 
