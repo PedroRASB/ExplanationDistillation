@@ -4,6 +4,8 @@ Requirements: Install CLIP (https://github.com/openai/CLIP) and all requirements
 
 Files:
 OfflineStudentZVariableEpsTorch.py: main library for explanation distillation, based on pytorch
-OfflineStudentLightningTrainer.py: Pytorch Lightning implementation of explanation distillation. Used in all our distillation experiments
-ISNetFunctionsZe.py, globalsZe.py, OfflineTeacherLightningTrainer.py, ISNetLayersZe.py, globalsZe.py, resnet.py, LRPDenseNet.py, unet.py: supporting files, based on LRP-Flex
+OfflineStudentLightningTrainer.py: Pytorch Lightning implementation of explanation distillation. Used in all our distillation experiments, when training the student
+OfflineTeacherLightningTrainer.py: Pytorch Lightning implementation used to train the teacher
+ISNetFunctionsZe.py, globalsZe.py, ISNetLayersZe.py, globalsZe.py, resnet.py, LRPDenseNet.py, unet.py: supporting files, based on LRP-Flex, 
+
 
