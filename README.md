@@ -1,6 +1,9 @@
 # ExplanationDistillation
 
-Requirements: Install CLIP (https://github.com/openai/CLIP) and all requirements in the LRP-Flex implementation of layer-wise relevance propagation, on which our LRP procedure is based (https://github.com/PedroRASB/FasterISNet). 
+Requirements: CLIP (https://github.com/openai/CLIP), PyTorch (1.11.0), PyTorch Lightning (1.6.3), Python (3.9).
+
+Additional (training script dependencies): torchvision (0.12.0), matplotlib (3.5.1), numpy (1.21.5), h5py (3.7.0), scikit-image (0.19.2), scikit-learn (0.23.2), scipy (1.7.3), pandas (1.4.2).
+
 
 Files:
 OfflineStudentZVariableEpsTorch.py: main library for explanation distillation, based on pytorch
