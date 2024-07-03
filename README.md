@@ -30,7 +30,7 @@ jupyter notebook DistillMNIST.ipynb
 The results should be similar to the ones below (manuscript Table 1), although some variance is expected, due to random initialization. Notice that the code does not reproduce models that were not trained by us (in red).
 
 <p align="center">
-  <img src="etc/results.png" alt="MNIST results" width="700">
+  <img src="etc/results.png" alt="MNIST results" width="300">
 </p>
 
 
