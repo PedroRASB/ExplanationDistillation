@@ -7,11 +7,11 @@ Bias and spurious correlations in data can cause shortcut learning, undermining 
 
 #### Download colored mnist dataset, mnistColor, extract it and place it in ExplanationDistillation/data/
 
-https://drive.google.com/drive/folders/1egfaoWJMv9Wdinmuu4luEnA-QGZegCqL?usp=sharing
+https://drive.google.com/drive/folders/1Ghg17vjSnaq5H4jihM3ehmYrAX8NGsYP?usp=sharing
 
 #### Download teacher network, Teacher.pt, and plce it in ExplanationDistillation/Trained/
 
-https://drive.google.com/drive/folders/1egfaoWJMv9Wdinmuu4luEnA-QGZegCqL?usp=sharing
+https://drive.google.com/drive/folders/1Ghg17vjSnaq5H4jihM3ehmYrAX8NGsYP?usp=sharing
 
 #### Prepare environment (Conda)
 ```
