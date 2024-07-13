@@ -40,7 +40,7 @@ conda activate explanation_distillation
 python -m ipykernel install --user --name explanation_distillation --display-name "explanation_distillation"
 ```
 
-#### Train neural networks by distilling explanations only: run Jupyter notebook to reproduce the MNIST results in the manuscript Table 1
+#### Train neural networks by distilling explanations only: run the Jupyter Notebook to reproduce the MNIST results in the manuscript Table 1
 ```
 cd mnist
 jupyter notebook DistillMNIST.ipynb
