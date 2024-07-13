@@ -17,7 +17,7 @@ In our experiments, explanation distillation surpassed group-invariant learning,
 - In COCO-on-Places, the undesirable generalization gap between in-distribution and OOD accuracy is only of 4.4% for LRP distillation, while deep feature distillation and IRM present gaps of 15.1% and 52.1%, respectively
 
 
-# Reproduce COLOURED MNIST (100\% biased) Results
+# Reproduce COLOURED MNIST (100\% Biased) Results
 
 <div align="center">
   <img src="etc/ColorMNIST.png" alt="MNIST" width="170">
