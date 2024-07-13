@@ -19,6 +19,11 @@ In our experiments, explanation distillation surpassed group-invariant learning,
 
 # Reproduce COLOURED MNIST Results
 
+<div align="center">
+  <img src="etc/ColorMNIST.png" alt="MNIST" width="170">
+  <br>
+</div>
+
 #### Download colored mnist dataset, mnistColor, extract it and place it in ExplanationDistillation/data/
 
 https://drive.google.com/drive/folders/1Ghg17vjSnaq5H4jihM3ehmYrAX8NGsYP?usp=sharing
