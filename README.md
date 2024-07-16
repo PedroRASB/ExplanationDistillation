@@ -57,7 +57,3 @@ The results should be similar to the ones below (manuscript Table 1), although s
 
 - DistillationCode/OfflineStudentZVariableEpsTorch.py: main library for explanation distillation, based on PyTorch, use to train the student network
 - DistillationCode/OfflineStudentLightningTrainer.py: Pytorch Lightning implementation of explanation distillation. Used in all our distillation experiments, when training the student
-
-# Citation
-
-Comming soon.
