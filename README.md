@@ -16,7 +16,7 @@ In our experiments, explanation distillation surpassed group-invariant learning,
 - In the COLOURED MNIST dataset, LRP distillation achieved 98.2% OOD accuracy, while deep feature distillation and IRM achieved 92.1% and 60.2%, respectively
 - In COCO-on-Places, the undesirable generalization gap between in-distribution and OOD accuracy is only of 4.4% for LRP distillation, while deep feature distillation and IRM present gaps of 15.1% and 52.1%, respectively
 
-## Preprint
+## Paper
 
 [Explanation is All You Need in Distillation: Mitigating Bias and Shortcut Learning](https://arxiv.org/abs/2407.09788)
 
