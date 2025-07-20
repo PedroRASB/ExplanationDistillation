@@ -16,9 +16,6 @@ In our experiments, explanation distillation surpassed group-invariant learning,
 - In the COLOURED MNIST dataset, LRP distillation achieved 98.2% OOD accuracy, while deep feature distillation and IRM achieved 92.1% and 60.2%, respectively
 - In COCO-on-Places, the undesirable generalization gap between in-distribution and OOD accuracy is only of 4.4% for LRP distillation, while deep feature distillation and IRM present gaps of 15.1% and 52.1%, respectively
 
-## Paper
-
-[Explanation is All You Need in Distillation: Mitigating Bias and Shortcut Learning](https://arxiv.org/abs/2407.09788)
 
 
 # Reproduce COLOURED MNIST (100\% Biased) Results
@@ -61,6 +58,11 @@ The results should be similar to the ones below (manuscript Table 1), although s
 
 - DistillationCode/OfflineStudentZVariableEpsTorch.py: main library for explanation distillation, based on PyTorch, use to train the student network
 - DistillationCode/OfflineStudentLightningTrainer.py: Pytorch Lightning implementation of explanation distillation. Used in all our distillation experiments, when training the student
+
+
+## Paper
+
+[Explanation is All You Need in Distillation: Mitigating Bias and Shortcut Learning](https://arxiv.org/abs/2407.09788)
 
 # Citation
 
