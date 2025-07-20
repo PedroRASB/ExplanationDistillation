@@ -5,9 +5,9 @@
 </div>
 
 Bias and spurious correlations in data can cause shortcut learning, undermining out-of-distribution (OOD) generalization in deep neural networks. Most methods require unbiased data during training (and/or hyper-parameter tuning) to counteract shortcut learning. **We propose the use of explanation distillation to hinder shortcut learning, improving bias robustness and out-of-distribution generalization.** Benefits:
-- Explanation distillation **needs no unbiased data for training or validation**. You do not need to known which samples have spurious correlations. In fact, **100% of your dataset can be biased!** You just need an unbiased teacher, like a large vison-language model or a network running on debiased (e.g., segmented) data
-- Explanation distillation reduces bias by making an arbitrarily sized student network **learn the reasons behind the decisions** of a large teacher, instead of just mimicking the teacher's outputs - removing the standard classification and distillation losses improved bias robustness
-- We found that it is **possible to train a neural network with explanation distillation only** (e.g., optimizing Layer-wise Relevance Propagation/LRP heatmaps)
+- Explanation distillation **needs no unbiased data for training or validation**. You do not need to known which samples have spurious correlations. In fact, **100% of your dataset can be biased!** You just need an unbiased teacher, like pipeline where one network segments the image foreground and the other classifies the segmented image
+- Explanation distillation reduces bias by making an arbitrarily sized student network **learn the reasons behind the decisions** of a large teacher, instead of just mimicking the teacher's outputs
+- We found that it is **possible to train a neural network with explanation distillation only**
 - Explanation distillation **leads to high resistance to dataset bias and shortcut learning**
 
 ## Findings
@@ -41,18 +41,13 @@ conda activate explanation_distillation
 python -m ipykernel install --user --name explanation_distillation --display-name "explanation_distillation"
 ```
 
-#### Train neural networks by distilling explanations only: run the Jupyter Notebook to reproduce the MNIST results in the manuscript Table 1
+#### Train neural networks by distilling explanations only: run the Jupyter Notebook to reproduce the MNIST results
 ```
 cd mnist
 jupyter notebook DistillMNIST.ipynb
 ```
  
-The results should be similar to the ones below (manuscript Table 1), although some variance is expected, due to random initialization. Notice that the code does not reproduce models that were not trained by us (in red). In the table, the more similar the results across the 3 columns, the less biased the model. Diverse variants of explanation distillation are shown in orange.
-
-<p align="center">
-  <img src="etc/results.png" alt="MNIST results" width="300">
-</p>
-
+The results should be similar to the ones in the paper, although some variance is expected, due to random initialization. Notice that the code does not reproduce models that were not trained by us. In the table, the more similar the results across the 3 columns, the less biased the model.
 
 # Main code
 
