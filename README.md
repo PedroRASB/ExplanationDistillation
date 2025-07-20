@@ -55,7 +55,7 @@ The results should be similar to the ones in the paper, although some variance i
 - DistillationCode/OfflineStudentLightningTrainer.py: Pytorch Lightning implementation of explanation distillation. Used in all our distillation experiments, when training the student
 
 
-## Paper
+## Preprint
 
 [Explanation is All You Need in Distillation: Mitigating Bias and Shortcut Learning](https://arxiv.org/abs/2407.09788)
 
